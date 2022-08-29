@@ -2,9 +2,9 @@
 
 
 {% block content %}
-    <form action ='' method='POST'>
+    <form action="" method="POST">
         {% csrf_token %}
         {{form.as_p}}
-        <input type='submit' value='Add'>
-      
+        <input type="submit" value="ADD">
+    </form>
 {% endblock content %}
