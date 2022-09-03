@@ -10,7 +10,7 @@ def home(request):
     form = TodoForm()
     context = {
         "todos" : todos,
-        "form" : form
+        "form" : form,
     }
 
     return render(request, "todo/home.html", context)
